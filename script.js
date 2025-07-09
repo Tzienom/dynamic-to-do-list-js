@@ -18,8 +18,8 @@ document.addEventListener("DOMContentLoaded", () => {
         list.remove();
       });
 
-      list.append(removeBtn);
-      taskList.append(list);
+      list.appendChild(removeBtn);
+      taskList.appendChild(list);
 
       taskInput.value = "";
     } else {
